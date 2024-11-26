@@ -2,7 +2,7 @@
 
 This is a simple survey form designed to collect feedback on reading lists and user preferences. It includes various input types, such as text fields, radio buttons, checkboxes, a select dropdown, and a textarea. The form also demonstrates basic form validation and accessibility considerations.
 
-![Screenshot Description](assets/screenshot #1.png)
+![Screenshot Description](assets/Screenshot #1.png)
 
 ---
 
