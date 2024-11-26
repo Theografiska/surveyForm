@@ -2,6 +2,8 @@
 
 This is a simple survey form designed to collect feedback on reading lists and user preferences. It includes various input types, such as text fields, radio buttons, checkboxes, a select dropdown, and a textarea. The form also demonstrates basic form validation and accessibility considerations.
 
+Here's the link to online version: https://theografiska.github.io/surveyForm/.
+
 ![Screenshot Description](assets/screenshot.png)
 
 ---
