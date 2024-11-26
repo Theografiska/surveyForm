@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta chartset="utf-8">
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1 id="title">Reading List Feedback</h1>
+        <p id="description"><em>This is a short survey to collect feedback about the books you're most interested in.</em></p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Name<input required id="name" name="name" type="text" placeholder="Enter your name"></label>
+                <label id="email-label" for="email">Email<input required id="email" name="email" type="email" placeholder="Enter your Email"></label>
+                <label id="number-label" for="number">Age (optional)<input id="number" type="number" name="number" min="0" max="120" placeholder="Age"></label>
+                <label for="dropdown">How long have you been a subscriber?<select id="dropdown">
+                    <option value="">Select the option</option>
+                    <option value="1">up to 3 months</option>
+                    <option value="2">3-12 months</option>
+                    <option value="3">More than a year</option></select></label>
+            </fieldset>
+            <fieldset>
+                <p>Would you recommend the reading list to a friend?
+                    <label class="radio-label" for="definitely"><input class="inline" type="radio" name="nps" id="definitely" value="definitely" checked> Definitely</label>
+                    <label class="radio-label" for="maybe"><input class="inline" type="radio" name="nps" id="maybe" value="maybe"> Maybe</label>
+                    <label class="radio-label" for="not-sure"><input class="inline" type="radio" name="nps" id="not-sure" value="not-sure"> Not sure</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>What kind of genres would you like to see covered the most?
+                    <label class="checkbox-label" for="fiction"><input class="inline" type="checkbox" id="fiction" value="fiction">Fiction (Literary Fiction)</label>
+                    <label class="checkbox-label" for="non-fiction"><input class="inline" type="checkbox" id="non-fiction" value="non-fiction">Non-Fiction (Biography/Autobiography)</label>
+                    <label class="checkbox-label" for="mystery"><input class="inline" type="checkbox" id="mystery" value="mystery">Mystery/Thriller</label>
+                </p>
+            </fieldset>
+            <fieldset>
+
+                <label id="feedback-label" for="feedback">Open feedback: please summarize what you like the most about the newsletter. What could be improved?
+                <textarea id="feedback" rows="5" cols="30" placeholder="Please type your feedback here"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Submit" id="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
